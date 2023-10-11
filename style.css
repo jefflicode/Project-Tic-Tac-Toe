@@ -1,65 +1,93 @@
-html, body {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: #12BDAC;
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #12bdac;
+}
+
+.playerSection {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 60px;
+  color: white;
+}
+
+.restartButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 23px;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9{
-    height: 150px;
-    width: 150px;
-    border: 6px solid;
-    border-color: white;
-    color: white;
-    font-size: 120px;
-    text-align: center;
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9 {
+  height: 150px;
+  width: 150px;
+  border: 6px solid;
+  border-color: white;
+  color: white;
+  font-size: 120px;
+  text-align: center;
 }
 
-.firstColumn, .secondColumn, .thirdColumn{
-    display: flex;
-    flex-direction: column;
+.firstColumn,
+.secondColumn,
+.thirdColumn {
+  display: flex;
+  flex-direction: column;
 }
 
 .grid1 {
-    border-top: none;
-    border-left: none;
+  border-top: none;
+  border-left: none;
 }
 
 .grid4 {
-    border-top: none;
+  border-top: none;
 }
 
 .grid7 {
-    border-top: none;
-    border-right: none;
+  border-top: none;
+  border-right: none;
 }
 
 .grid2 {
-    border-left: none;
+  border-left: none;
 }
 
 .grid3 {
-    border-left: none;
-    border-bottom: none;
+  border-left: none;
+  border-bottom: none;
 }
 
 .grid6 {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .grid9 {
-    border-bottom: none;
-    border-right: none;
+  border-bottom: none;
+  border-right: none;
 }
 
 .grid8 {
-    border-right: none;
+  border-right: none;
 }
